@@ -21,6 +21,7 @@ header {
   padding: 30px;
   margin: 0 0 30px;
   border-radius: 5px;
+  flex-wrap: wrap;
 }
 
 .grid {
@@ -85,21 +86,22 @@ header {
   cursor: pointer;
   font-size: 1em;
   padding: 10px 15px;
+  margin-top: 10px;
 }
 
 #back-button {
-  position: absolute;
-  top: 70px;
-  right: 60px;
   background-color: #B382EC;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
+  border: 3px solid #4C3564;
   border-radius: 8px;
+  color: #fff;
   cursor: pointer;
+  font-size: 1em;
+  padding: 10px 15px;
+  margin-top: 10px;
 }
 
 #back-button a {
   color: #fff;
   text-decoration: none;
 }
+
