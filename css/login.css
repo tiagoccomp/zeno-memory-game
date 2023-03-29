@@ -11,18 +11,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .login__header img {
-  width: 250px;
+  width: 300px;
+  margin-bottom: 10px;
 }
 
 
 
 .login__header h1 {
   color: #333;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .login__input {
@@ -38,7 +39,7 @@
 }
 
 .login__button {
-  background-color: #B382EC;
+  background-color: #AB04D8;
   border: 3px solid #4C3564;
   border-radius: 8px;
   color: #fff;
