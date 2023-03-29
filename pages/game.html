@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/game.css">
+  <link rel="stylesheet" href="../css/audio.css">
 
   <script defer src="../js/game.js"></script>
   <script defer src="../js/reset.js"></script>
@@ -16,6 +17,9 @@
 <body>
 
   <main>
+    <video autoplay loop muted playsinline id="bg-video">
+      <source src="../video/zenogakki.mp4" type="video/mp4">
+    </video>
     <header>
       <a href="https://twitter.com/zenogakki" target="_blank" style="text-decoration:none">Zenogakki</a>
     
@@ -23,11 +27,14 @@
         <span class="player"></span>
         <span>Timer: <span class="timer">00</span></span>
       </div>
-    
+
       <div class="buttons">
         <button class="reset-button">Reset</button>
         <button id="back-button"><a href="../index.html">Return</a></button>
       </div>
+
+      <audio controls autoplay><source src="../audio/zeno-cyberpunk.mp3" type="audio/mp3">
+      </audio>
     </header>
 
     <div class="grid"></div>
